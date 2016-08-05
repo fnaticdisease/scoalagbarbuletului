@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 105.4 134.2" style="enable-background:new 0 0 105.4 134.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#33B25A;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Cabin-Bold';}
+	.st3{font-size:22.1585px;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M0,51.4v73.3c0,5.2,4.3,9.5,9.5,9.5h86.1c5.2,0,9.5-4.3,9.5-9.5V51.4H0z"/>
+<path class="st0" d="M105.2,54.4V35.8L70,0.3H9.5C4.3,0.3,0,4.6,0,9.8v44.5H105.2z"/>
+<g>
+	
+		<image style="overflow:visible;opacity:0.85;" width="167" height="126" id="XMLID_50_" xlink:href="35746A96.png"  transform="matrix(0.24 0 0 0.24 14.3936 16.4259)">
+	</image>
+	<g id="XMLID_41_">
+		<text id="XMLID_48_" transform="matrix(1 0 0 1 16.3936 35.9728)" class="st1 st2 st3">XLS</text>
+	</g>
+</g>
+<g>
+	
+		<image style="overflow:visible;opacity:0.85;" width="322" height="180" id="XMLID_70_" xlink:href="35746A9A.png"  transform="matrix(0.24 0 0 0.24 14.8936 75.3957)">
+	</image>
+	<g id="XMLID_40_">
+		<g id="XMLID_60_">
+			<rect id="XMLID_64_" x="18.4" y="77.9" class="st4" width="68.3" height="34"/>
+			<rect id="XMLID_63_" x="18.4" y="77.9" class="st4" width="19.7" height="34"/>
+			<line id="XMLID_62_" class="st4" x1="18.3" y1="88.9" x2="85.3" y2="88.9"/>
+			<line id="XMLID_61_" class="st4" x1="18.3" y1="100.9" x2="85.3" y2="100.9"/>
+		</g>
+	</g>
+</g>
+<rect y="51.4" class="st1" width="105.2" height="3"/>
+<path class="st0" d="M105,36.1L69.9,0h27.8c4.3,0,7.7,3.5,7.7,7.8L105,36.1z"/>
+</svg>

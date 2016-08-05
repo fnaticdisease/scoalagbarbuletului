@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 105.4 134.2" style="enable-background:new 0 0 105.4 134.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#243A74;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Cabin-Bold';}
+	.st3{font-size:22.1585px;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M0.3,52v73.3c0,5.2,4.3,9.5,9.5,9.5H96c5.2,0,9.5-4.3,9.5-9.5V52H0.3z"/>
+<path class="st0" d="M105.5,55V36.4L70.4,0.9H9.9c-5.2,0-9.5,4.3-9.5,9.5V55H105.5z"/>
+<g>
+	
+		<image style="overflow:visible;opacity:0.85;" width="204" height="126" id="XMLID_65_" xlink:href="AEE71789.png"  transform="matrix(0.24 0 0 0.24 10.0537 17.0304)">
+	</image>
+	<g id="XMLID_56_">
+		<text id="XMLID_63_" transform="matrix(1 0 0 1 12.0537 36.5772)" class="st1 st2 st3">DOC</text>
+	</g>
+</g>
+<g>
+	
+		<image style="overflow:visible;opacity:0.85;" width="325" height="188" id="XMLID_117_" xlink:href="AEE7178B.png"  transform="matrix(0.24 0 0 0.24 14.2676 73.3957)">
+	</image>
+	<g id="XMLID_87_">
+		<g id="XMLID_107_">
+			<line id="XMLID_111_" class="st4" x1="16.3" y1="75.9" x2="88.3" y2="75.9"/>
+			<line id="XMLID_110_" class="st4" x1="16.3" y1="87.9" x2="88.3" y2="87.9"/>
+			<line id="XMLID_109_" class="st4" x1="16.3" y1="99.9" x2="88.3" y2="99.9"/>
+			<line id="XMLID_108_" class="st4" x1="16.3" y1="111.9" x2="56.3" y2="111.9"/>
+		</g>
+	</g>
+</g>
+<rect x="0.3" y="52" class="st1" width="105.2" height="3"/>
+<path class="st0" d="M105.5,37.1L70.4,1h27.8c4.3,0,7.7,3.5,7.7,7.8L105.5,37.1z"/>
+</svg>

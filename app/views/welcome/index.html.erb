@@ -1,0 +1,228 @@
+
+<header id="header" class="alt">
+            <span class="logo"><img src="assets/logo.svg" alt="" /></span>
+            <h1>SCOALA GIMNALIZALĂ GURA BĂRBULEȚULUI</h1>
+            
+          </header>
+<div id="wrapper">
+        <!-- Nav -->
+          <nav id="nav">
+            <ul>
+              <li><a href="#intro" class="active">Viziune</a></li>
+              <li><a href="#second">Postări</a></li>
+              <li><a href="#first">Galerie foto</a></li>
+              <li><a href="#utilitare">Utilitare</a></li>
+              <li class="call-to-action"><a href="mailto:scoalagbarbuletului@yahoo.com"><i class="fa fa-envelope " style="color:#00ff80 ; margin:0 10px;" aria-hidden="true"></i>MAIL</a></li>
+            </ul>
+          </nav>
+
+        <!-- Main -->
+          <div id="main">
+
+            <!-- Introduction -->
+              <section id="intro" class="main">
+                <div class="spotlight">
+                  <div class="content">
+                    <header class="major">
+                      <h2 class="main-heading">MOTTO ȘI VIZIUNE</h2>
+                    </header>
+                    <p class="motto">MOTTO: „Nu e destul sa stii, trebuie sa si aplici; nu e destul sa vrei, trebuie sa si faci.”-J.W.Goethe</p>
+                    <br>
+                    <p class="text">
+
+Scoala noastra are ca prioritate pregatirea elevilor pentru o lume in schimbare , formandu-le capacitati, deprinderi si competente care sa le permita sa-si gaseasca locul si menirea in societate.
+Respectam fiecare elev, oricat de modeste ar fi rezultatele scolare, identificand atuul si aptitudinile fiecaruia pentru a le putea valorifica.
+Scoala noastra este o scoala in slujba comunitatii, avand capacitatea de a functiona ca o structura eficienta si echitabila , pentru toate categoriile de copii si de a asigura progresul tuturor elevilor sai , astfel incat “Maine sa fii mai bun ca azi !“.</p>
+                    
+                  </div>
+
+                  <div class="image-container">
+                                        
+
+
+                      <div class="director"><img src="assets/director.png">
+                              <p class="director-info"><span>DIRECTOR: prof. </span> ONEA ELENA CLAUDIA</p>
+                            </div>
+                            <div class="contact-info">
+                              <div class="phone"><img src="assets/phone.svg">
+                                <div class="info-number"> 
+                                  <p> 0245240725</p>
+                                </div>
+                              </div>
+                              <div class="mail"><img src="assets/mail.svg">
+                                <div class="info-number">
+                                  <p> scoalagbarbuletului@yahoo.com</p>
+                                </div>
+                              </div>
+                              <div class="fax"><img src="assets/fax.svg">
+                                <div class="info-number">
+                                  <p> 0245240725</p>
+                                </div>
+                              </div>
+                            </div>
+
+                  </div>
+
+                </div>
+              </section>
+
+            
+ 
+      
+
+
+            <!-- Second Section -->
+              <section id="second" class="main special">
+                <header class="major">
+                  <h2>POSTĂRI</h2>
+                  <p>Fii mereu in actualitare cu ceea ce se întamplă în școala noastră,proiecte și activități !</p>
+                </header>
+                  <div class="post">
+                   <div class="last-post">
+                        <% @last.each do |last| %>
+                        <div class="post-top">
+                          <img src="assets/characters.svg">
+                          <%= link_to last.title,last,:class=>"post-title"  %>
+                        </div>
+                      <div class="post-text">
+                        <p ><%= truncate(last.content,:length =>190)%></p>
+                      </div>
+                      <div class="toate-postarile">
+                        <%= link_to "CITESTE POST",last %>
+                      </div>
+                    </div>
+                     <% end %>
+                    <div class="all-posts">
+                      <ul class="posts-wrap">
+                        <% @post.each do |post| %>
+                            <li class="postare">
+                              <div class="post-date">
+                                <p><%= post.created_at.strftime('%d %b') %></p>
+                              </div>
+                              <h3 class="titlu-post"><%= link_to post.title ,post %></h3>
+                            </li>
+                        <% end %>
+                            
+                        <li class="postare">
+                          <div class="toate-postarile">
+                            <%= link_to "VEZI POSTARI",posts_path %>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+    
+              </section>
+
+
+
+
+
+              <!-- First Section -->
+              <section id="first" class="main special gallery">
+                <header class="major">
+                  <h2>GALERIE FOTO</h2>
+                </header>
+                <ul id="rig">
+                        <li><a href="#" class="rig-cell"><img src="assets/galerie/1.jpg" class="rig-img"><span class="rig-overlay"></span><span class="rig-text">DECORAȚIUNI</span></a></li>
+                        <li><a href="#" class="rig-cell"><img src="assets/galerie/2.jpg" class="rig-img"><span class="rig-overlay"></span><span class="rig-text">INFORMATICA</span></a></li>
+                        <li><a href="#" class="rig-cell"><img src="assets/galerie/3.jpg" class="rig-img"><span class="rig-overlay"></span><span class="rig-text">DECORAȚIUNI</span></a></li>
+                        <li><a href="#" class="rig-cell"><img src="assets/galerie/4.jpg" class="rig-img"><span class="rig-overlay"></span><span class="rig-text">SERBARE</span></a></li>
+                        <li><a href="#" class="rig-cell"><img src="assets/galerie/5.jpg" class="rig-img"><span class="rig-overlay"></span><span class="rig-text">SERBARE</span></a></li>
+                        <li><a href="#" class="rig-cell"><img src="assets/galerie/6.jpg" class="rig-img"><span class="rig-overlay"></span><span class="rig-text">ORA DESCHISA</span></a></li>
+                        <li><a href="#" class="rig-cell"><img src="assets/galerie/7.jpg" class="rig-img"><span class="rig-overlay"></span><span class="rig-text">ORA DESCHISA</span></a></li>
+                        <li><a href="#" class="rig-cell"><img src="assets/galerie/8.jpg" class="rig-img"><span class="rig-overlay"></span><span class="rig-text">SCOALA</span></a></li>
+                    </ul>
+                
+
+
+              </section>
+
+
+              <section class="utilitare main special" id="utilitare">
+                  <header class="major">
+                  <h2>UTILITARE</h2>
+                  <p>De aici poti descarca documente importante pe care le punem la dispozitie!</p>
+                </header>
+                  <div class="overlay-page">
+
+                      <div class="overlay-content">
+                          <span class="close-button"><i class="fa fa-times" aria-hidden="true"></i></span>
+                          <iframe src="" scrolling="yes" frameborder="1" marginheight="0px" height="95%" width="100%"></iframe>
+                      </div>
+                  </div>
+                <ul class="lista-util">
+
+                  <li>
+                    <div class="info-prog">
+                      <img class="util-prog" src="assets/pdf.svg">
+                      <p class="nume-ultil">Concurs post contabil</p>
+                    </div>
+                    <p data-link="http://www.pdf995.com/samples/pdf.pdf"class="download-button">PREVIEW</p>
+                  </li>
+                  <li>
+                    <div class="info-prog">
+                      <img class="util-prog" src="assets/word.svg">
+                      <p class="nume-ultil">Activitati didactice </p>
+                    </div>
+                    <p data-link="http://view.officeapps.live.com/op/view.aspx?src=www.econ.yale.edu/~shiller/data/ie_data.xls"class="download-button">PREVIEW</p>
+                  </li>
+                  <li>
+                    <div class="info-prog">
+                      <img class="util-prog" src="assets/excel.svg">
+                      <p class="nume-ultil">Orar clasele V-VIII</p>
+                    </div>
+                    <p data-link="http://view.officeapps.live.com/op/view.aspx?src=http%3a%2f%2fvideo.ch9.ms%2fbuild%2f2011%2fslides%2fTOOL-532T_Sutter.pptx" class="download-button">PREVIEW</p>
+                  </li>
+                  
+
+
+
+                </ul>
+              </section>
+
+
+
+            <!-- Get Started -->
+              
+
+          </div>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <section>
+              <h2>Școala Gimnazială Gura Bărbulețului</h2>
+              <p>Școala este o instituție publică proprietate de stat sau privată unde se învață disciplinele prevăzute într-un plan de învățământ.
+Conceptul „școală ” provine de la cuvântul latin „schola”, derivat și el la rândul său din greaca antică „scholeion”, de la „scholḗ”. Termenul grec era înțeles la început drept „timp liber”, pentru ca apoi să evolueze: de la „timp liber” cuvântul a ajuns să descrie „locul în care era petrecut timpul liber”.</p>
+              
+            </section>
+            <section>
+              <h2>Informații</h2>
+              <dl class="alt">
+                <dt>Adresă</dt>
+                <dd>Gura Bărbulețului
+137024</dd>
+                <dt>Telefon</dt>
+                <dd>0245240725</dd>
+                <dt>Email</dt>
+                <dd><a href="#">scoalagbarbuletului@yahoo.com</a></dd>
+              </dl>
+              <ul class="icons">
+                
+                <li><a href="https://www.facebook.com/pages/Scoala-Gimnaziala-Gura-Barbuletului/1413949065494646?fref=ts" target="_blank" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+                
+              </ul>
+            </section>
+            
+          </footer>
+
+      </div>
+
+    
+
+                 
+               
+
+
+  
+    

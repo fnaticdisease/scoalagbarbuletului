@@ -1,0 +1,30 @@
+<%= form_for @post do |f| %>
+
+	<% if @post.errors.any? %>
+
+		<h2><%= pluralize(@post.errors.count,"error") %> prevented this post from savng:</h2>
+
+		<ul>
+			<%= @post.errors.full_messages.each do |msg| %>
+				<li><%= msg %> </li>
+				<% end %>
+		</ul>
+
+	<%end%>
+	
+	<%= f.label(:title,:class =>"form-title") %>
+	<%= f.text_field(:title,:class => "title-input-area") %>
+	
+
+
+	<%= f.label(:content,:class =>"form-title")%><br>
+	<%= f.text_area(:content,:class => "text-area-field") %>	
+	
+	<br>
+	<br>
+
+	
+	<%= f.submit(:class=>"submit-button") %>
+</div>
+
+<% end %>

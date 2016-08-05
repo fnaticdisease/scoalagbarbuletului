@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 105.4 134.2" style="enable-background:new 0 0 105.4 134.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F595A6;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Cabin-Bold';}
+	.st3{font-size:22.1585px;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M1.1,53v72.7c0,5.2,4.3,9.5,9.5,9.5h86.1c5.2,0,9.5-4.3,9.5-9.5V53H1.1z"/>
+	<path class="st0" d="M106.3,55V36.9L71.2,1.4H10.6c-5.2,0-9.5,4.3-9.5,9.5V55H106.3z"/>
+	<g>
+		
+			<image style="overflow:visible;opacity:0.85;" width="170" height="126" id="XMLID_65_" xlink:href="A94BB150.png"  transform="matrix(0.24 0 0 0.24 14.3916 17.4709)">
+		</image>
+		<g id="XMLID_56_">
+			<text id="XMLID_63_" transform="matrix(1 0 0 1 16.3916 37.0176)" class="st1 st2 st3">PPT</text>
+		</g>
+	</g>
+	<rect x="1.1" y="54" class="st1" width="105.2" height="3"/>
+	<g>
+		
+			<image style="overflow:visible;opacity:0.85;" width="349" height="209" id="XMLID_169_" xlink:href="A94BB151.png"  transform="matrix(0.24 0 0 0.24 12.8296 70.2109)">
+		</image>
+		<g id="XMLID_115_">
+			<g id="XMLID_151_">
+				<rect id="XMLID_159_" x="16.3" y="72.7" class="st4" width="74.7" height="41"/>
+				<rect id="XMLID_158_" x="26" y="81.4" class="st4" width="7" height="23.7"/>
+				<rect id="XMLID_157_" x="51.5" y="84.7" class="st4" width="7" height="20.4"/>
+				<rect id="XMLID_156_" x="38.5" y="90.8" class="st4" width="7" height="14.2"/>
+				<line id="XMLID_155_" class="st4" x1="67.3" y1="83.9" x2="83.3" y2="83.9"/>
+				<line id="XMLID_154_" class="st4" x1="67.3" y1="90.9" x2="83.3" y2="90.9"/>
+				<line id="XMLID_153_" class="st4" x1="67.3" y1="97.9" x2="83.3" y2="97.9"/>
+				<line id="XMLID_152_" class="st4" x1="67.3" y1="104.9" x2="83.3" y2="104.9"/>
+			</g>
+		</g>
+	</g>
+	<path class="st0" d="M106.1,37.2L71,1h27.8c4.3,0,7.7,3.5,7.7,7.8L106.1,37.2z"/>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<div  id="wrapper-alt">
+	<div id="main">
+		<header class="post-header">
+		      <%= link_to posts_path do %>
+	  			 <h2 class="logo">școala gimnazială gura bărbulețului </h2>
+				<% end %>
+		      <div class="update-buttons">
+		      	<%= link_to "Editare" , edit_post_path(@post)%>
+				<%= link_to "Stergere" , post_path(@post),method: :delete,data:{confirm:"Sunteti sigur ca vreti sa stergeti aceasta postare?"} %>
+		      </div>
+		</header>
+		<section class="show-body">
+			
+			
+			<h2 class="show-title"><%= @post.title %> </h2>
+			<div class="show-content">
+				<%= simple_format @post.content %>
+			</div>
+			
+		</section>
+	</div>
+</div>

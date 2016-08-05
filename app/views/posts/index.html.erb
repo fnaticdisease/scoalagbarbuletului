@@ -1,0 +1,28 @@
+<div id="wrapper-alt">
+	<div id="main">
+		<header class="post-header">
+		      <%= link_to root_path do %>
+	  			 <h2 class="logo">școala gimnazială gura bărbulețului </h2>
+				<% end %>
+		</header>
+
+
+			<div class="posts-body">
+				<% @posts.each do |post| %>
+					<div class="post-box">
+
+							<p class="post-date"><%= post.created_at.strftime('%d %b') %></p>
+							<div class="postwrap">
+								<a class="post-title"><%= post.title %></a>		
+								<%= link_to "Citeste",post , :class => "read-button"%>
+							</div>
+						
+					</div>
+				<%end %>
+			</div>
+	</div>
+</div>
+
+
+
+

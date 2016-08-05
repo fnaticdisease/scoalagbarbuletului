@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 105.4 134.2" style="enable-background:new 0 0 105.4 134.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F04D4E;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Cabin-Bold';}
+	.st3{font-size:22.1585px;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M0.3,52v73.5c0,5.2,4.3,9.5,9.5,9.5H96c5.2,0,9.5-4.3,9.5-9.5V52H0.3z"/>
+	<path class="st0" d="M105.5,55V36.7L70.4,1.2H9.9c-5.2,0-9.5,4.3-9.5,9.5V55H105.5z"/>
+	<g>
+		
+			<image style="overflow:visible;opacity:0.85;" width="181" height="126" id="XMLID_65_" xlink:href="F8979591.png"  transform="matrix(0.24 0 0 0.24 11.0537 17.2511)">
+		</image>
+		<g id="XMLID_56_">
+			<text id="XMLID_63_" transform="matrix(1 0 0 1 13.0537 36.7979)" class="st1 st2 st3">PDF</text>
+		</g>
+	</g>
+	<g>
+		
+			<image style="overflow:visible;opacity:0.85;" width="331" height="188" id="XMLID_130_" xlink:href="F8979593.png"  transform="matrix(0.24 0 0 0.24 14.2676 73.3957)">
+		</image>
+		<g id="XMLID_94_">
+			<g id="XMLID_118_">
+				<line id="XMLID_123_" class="st4" x1="16.3" y1="75.9" x2="56.3" y2="75.9"/>
+				<line id="XMLID_122_" class="st4" x1="16.3" y1="87.9" x2="88.3" y2="87.9"/>
+				<line id="XMLID_121_" class="st4" x1="16.3" y1="99.9" x2="56.3" y2="99.9"/>
+				<line id="XMLID_120_" class="st4" x1="16.3" y1="111.9" x2="56.3" y2="111.9"/>
+				<rect id="XMLID_119_" x="66.8" y="99.5" class="st4" width="21.2" height="12"/>
+			</g>
+		</g>
+	</g>
+	<rect x="0.3" y="52" class="st1" width="105.2" height="3"/>
+	<path class="st0" d="M105.5,36.7l0.5-22.1C106,7.1,99.9,1,92.5,1.1L70.4,1.2"/>
+</g>
+</svg>
