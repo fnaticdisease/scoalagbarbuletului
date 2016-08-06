@@ -33,13 +33,13 @@ html,body{
 
   .update-buttons{
     position:absolute;
-    top:50%;
-    left:30px;
-    -webkit-transform: translate(0%, -50%);
-    -moz-transform: translate(0%, -50%);
-    -ms-transform: translate(0%, -50%);
-    -o-transform: translate(0%, -50%);
-    transform: translate(0%, -50%);
+    top:90%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 
 
@@ -69,13 +69,7 @@ html,body{
 #wrapper-alt #main .show-body{
     padding:100px;
 
-    .show-image img {
-
-        width:100%;
-        height:200px;
-
-
-    }
+    
 
     .show-title{
         font-size:26px;
@@ -88,5 +82,48 @@ html,body{
     .show-content p{
       font-size:20px;
       text-indent:30px;
+      font-weight: 400;
     }
+
+    .show-content a{
+      color: #009dff;
+      font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 780px)
+{
+  
+  #wrapper-alt #main .post-header {
+
+  .logo{
+        font-size:16px;
+        margin:0;
+        padding:0;
+        text-align:center;
+  }
+
+  .update-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+  
+  #wrapper-alt #main .show-body{
+      padding: 50px 10px;
+
+      .show-title{
+          font-size:22px;
+
+      }
+
+      .show-content p{
+          font-size:16px;
+      }
+
+  }
+
 }

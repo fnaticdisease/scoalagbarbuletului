@@ -3261,6 +3261,62 @@
 
 
 
+ @media screen and (max-width: 780px){
+
+    .post{
+      height:100%;
+      flex-direction:column;
+
+
+      .last-post{
+        width:100%;
+        
+
+        .post-top .post-title{
+
+          font-weight:700;
+          margin:10px 0;
+
+        }
+
+        .post-text{
+            width:90%;
+            font-weight:400;
+        }
+        .toate-postarile{
+          width:90%;
+
+
+        }
+      }
+
+
+      .all-posts{
+        width:100%;
+        margin-top:20px;
+
+        .posts-wrap .postare{
+          width:100%;
+          margin-bottom:20px;
+
+          .titlu-post{
+            font-size:14px;
+            font-weight:500;
+          }
+        }
+
+        }
+      
+
+
+
+    }
+
+
+ }
+
+
+
 
 
 
@@ -3384,6 +3440,38 @@
 
     @media screen and (max-width: 980px) {
 
+    .spotlight .image-container {
+
+        padding:10px;
+        margin:none;
+        flex-direction:column;
+        width:100%;
+
+        .director {
+          width:100%;
+
+          .director-info{
+            font-size:14px;
+          }
+
+        }
+
+        .contact-info {
+          width:100%;
+
+          .phone,.mail,.fax {
+              flex-direction:column;
+          }
+
+        }
+
+
+    }
+
+
+
+
+
       .spotlight {
         -moz-flex-direction: column-reverse;
         -webkit-flex-direction: column-reverse;
@@ -3398,6 +3486,7 @@
           -ms-flex: 0 1 auto;
           flex: 0 1 auto;
           width: 100%;
+          font-weight:400;
         }
 
           .spotlight .content header.major h2:after {
@@ -4339,3 +4428,26 @@
   z-index: 5;
   margin:0 auto;
 }
+
+ @media screen and (max-width: 780px){
+
+    .lista-util{
+      width:100%;
+
+      li {
+        flex-direction:column;
+
+        .info-prog .nume-ultil{
+          font-size:14px;
+          font-weight:500;
+      }
+
+      .download-button{
+        width:100%;
+      }
+
+      }
+       
+    }
+
+ }

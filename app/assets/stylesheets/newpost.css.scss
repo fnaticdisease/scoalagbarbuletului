@@ -34,11 +34,7 @@
 		height:500px;
 	}
 
-	.image-area{
-		margin:50px;
-
-	}
-
+	
 	.submit-button{
 		    margin: 50px;
 		    width: 90%;
@@ -56,3 +52,30 @@
 }
 
 
+@media screen and (max-width: 780px) {
+	
+	#wrapper-alt #main .new-post-form {
+
+		.form-title{
+			margin:20px 0 0 20px;
+		}
+
+		.title-input-area{
+			width:90%;
+			margin-left:20px;
+		}
+		.text-area-field{
+			margin-left:20px;
+			width:90%;
+
+		}
+
+		.submit-button{
+			margin:0 auto;
+			width:100%;
+		}
+
+	}
+
+}
+	

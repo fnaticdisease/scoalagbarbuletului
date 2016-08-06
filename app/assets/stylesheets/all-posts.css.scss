@@ -54,3 +54,21 @@
 
 	}
 }
+
+
+@media screen and (max-width: 780px){
+	
+	#wrapper-alt #main .posts-body{
+
+		 width: 100%;
+   		 padding: 50px 10px;
+
+   		 .post-box .postwrap .post-title{
+   		 		font-size:12px;
+   		 		font-weight:600;
+
+   		 }
+	}
+
+}
+   

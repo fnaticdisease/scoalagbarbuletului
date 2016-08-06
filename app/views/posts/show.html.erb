@@ -14,7 +14,7 @@
 			
 			<h2 class="show-title"><%= @post.title %> </h2>
 			<div class="show-content">
-				<%= simple_format @post.content %>
+				<%= markdown(@post.content)  %>
 			</div>
 			
 		</section>
